@@ -2,7 +2,7 @@
 - To automate the process of creating and completing goal. The login credential will be stored in the user folde
 
 ## Prerequisite
-- Python
+- [Python](https://www.python.org/downloads/)
 - Chromedriver
 - Selenium
 
