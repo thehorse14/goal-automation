@@ -1,12 +1,11 @@
 # Selfdrvn Goal Automation
-- To automate the process of creating and completing goal. The login credential will be stored in the user folde
+- To automate the process of creating and completing goal. The login credential will be stored in the user folder
 
 ## Prerequisite
 - [Python](https://www.python.org/downloads/)
-- Chromedriver
-- Selenium
 
 ## How to use
+- Run `pip install -r requirements.txt` to install the package needed
 
 ### Windows
 1. Replace `user_folder` variable with your User folder.
