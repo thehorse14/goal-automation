@@ -1,5 +1,5 @@
 # Selfdrvn Goal Automation
-- To automate the process of creating and completing goal. The login credential will be stored in the user folder
+- To automate the process of creating and completing goal. The access token will be stored in the user folder.
 
 ## Prerequisite
 - [Python](https://www.python.org/downloads/)
