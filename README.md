@@ -12,4 +12,3 @@
 1. Replace `user_folder` variable with your User folder.
 2. Replace `selfdrvn_goal_link` with your goal link.
 3. Replace `email` with your login email.
-4. Replace `password` with your login password.

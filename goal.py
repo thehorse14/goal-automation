@@ -9,7 +9,6 @@ options = Options()
 user_folder = ""
 selfdrvn_goal_link = ""
 email = ""
-password = ""
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 options.add_argument("--user-data-dir=C:/Users/" + user_folder + "/AppData/Local/Google/Chrome/User Data/Person 1") 
 driver = webdriver.Chrome("./chromedriver.exe", options=options)
@@ -19,10 +18,6 @@ try:
     email_login = driver.find_element_by_css_selector("input[type='email']")
     email_login.send_keys(email)
     driver.find_element_by_css_selector("button#checkButton").click()
-    sleep(1)
-    password_field = driver.find_element_by_css_selector("input[type='password']")
-    password_field.send_keys(password)
-    WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='submit']"))).click()
 except Exception:
     pass
 WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".btn-add-goal"))).click()
